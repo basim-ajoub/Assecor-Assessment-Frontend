@@ -1,0 +1,29 @@
+:root {
+    --swiper-pagination-bullet-horizontal-gap: 2px;
+    --swiper-pagination-bullet-width:  0.625rem;
+    --swiper-pagination-bullet-height:  0.625rem;
+    --light-red-opacity-47: #B88282;
+    --swiper-pagination-color: var(--light-red-opacity-47) ;
+    --swiper-pagination-bullet-inactive-color: #4040406E;
+    --swiper-pagination-bullet-inactive-opacity: .43;
+    --swiper-pagination-bullet-opacity: 0.47;
+}
+.swiper {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+}
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 23.5rem;
+    object-fit: cover;
+    object-position: center;
+}
+.swiper-pagination {
+    position: initial;
+    margin: .5rem 0rem;
+}
+.swiper-cube-shadow {
+    display: none;
+}
